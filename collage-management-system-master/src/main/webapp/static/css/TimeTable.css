@@ -1,0 +1,179 @@
+body
+{
+    background: #FFF;;
+    height: 700px;
+    margin-top: 5px;
+       
+}
+.container11
+{
+  width: 1200px;;  
+  margin: auto;
+}
+/*Start First Table*/
+table[class="tabel1"]
+{
+    width:100%;
+    height: 590px;
+    float: left;
+    
+}
+/*End first table*/
+
+
+/*Start header*/
+th
+{
+    background: #000;
+    border: .5px solid #FFF;
+    color:#FFF;
+}
+.W
+{
+    background: #DDD;
+    width: 20px;
+}
+/*End Header*/
+
+/*Start Table Details*/
+
+td[class="dif"]
+{
+    background-color: #FFF;
+}
+
+
+td
+{
+    background-color:#FFF;
+}
+.col
+{
+    background-color: #000;
+    color: #FFF;
+}
+textarea[class="dif"]
+{
+    
+    width: 160px;
+    height: 120px;
+    background-color:#FFCCCC;
+    margin-top: -10px;
+    margin-left: 4px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    border: 1px solid #FFF;
+    color: #000;
+    resize: none;
+    
+}
+textarea
+{
+   width: 160px;
+    height: 120px;
+    background-color:#FFF;
+    margin-top: -10px;
+    margin-left: 4px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    border: 1px solid #FFCCCC;
+    color: #000;
+    resize: none;
+}
+
+/*End Table Details*/
+
+/*Start Selection*/
+/*
+div[class="select"]
+{
+    background-color: #000;
+    overflow: hidden;
+    margin-top: 2px;
+    overflow: hidden;
+    height: 50px;
+    width:310px;
+    border: .5px solid #FFF;
+    
+    float: left;
+    margin-left: 1px;
+    
+}
+select
+{
+    margin-left: 70px;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 4px;
+    margin-top: 10px;
+   
+}
+*/
+/*End Selection*/
+
+
+/*Start Second Table*/
+/*
+table[class="secondery"]
+{
+    
+    width:310px;
+    height: 400px;
+    margin-top: 1px;
+    padding: 0px;
+    margin-right: -200px;
+    overflow: hidden;
+}
+th[class="ths"]
+{
+    background-color:#000;
+    color:#FFF;
+    height: 70px;
+}
+td[class="tds"]
+{
+    text-align: center;
+}
+  
+
+*/
+/*End Second Table*/
+button
+{
+    margin: 0px;
+    width: 40px;
+    height: 60px;
+    margin-top: 0px;
+    background-color: #FFF;
+    color:#000;
+}
+
+
+button[class="A"]
+{
+    padding: 5px;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: #DDD;
+    color: #000;
+    text-align: center;
+    margin-left: 500px;
+}
+input[class="save"]
+{
+    padding: 0px;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: #DDD;
+    color: #000;
+    text-align: center;
+    margin-left: 500px;
+}
+
+
+/*Start button*/
+
+
+/*End Button*/

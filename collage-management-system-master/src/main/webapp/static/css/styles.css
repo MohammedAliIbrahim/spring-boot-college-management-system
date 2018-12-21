@@ -1,0 +1,257 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#courses,
+#courses ul,
+#courses ul li,
+#courses ul li a,
+#courses #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*start container*/
+.container{width:1170px;margin:auto;background-color: #ccc}
+/*end container*/
+#courses:after,
+#courses > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#courses #menu-button {
+  display: none;
+}
+#courses {
+  width: auto;
+  font-family: Raleway, sans-serif;
+  line-height: 1;
+}
+#courses > ul {
+  background: #3db2e1;
+}
+#courses > ul > li {
+  float: left;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+}
+#courses.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#courses.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#courses.align-right > ul > li {
+  float: right;
+}
+#courses > ul > li > a {
+  padding: 16px 20px;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #3db2e1;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+#courses > ul > li.active > a {
+  color: #dff2fa;
+}
+#courses > ul > li:hover > a,
+#courses > ul > li > a:hover {
+  color: #dff2fa;
+  -webkit-transform: rotateX(90deg) translateY(-23px);
+  -moz-transform: rotateX(90deg) translateY(-23px);
+  transform: rotateX(90deg) translateY(-23px);
+  -ms-transform: none;
+}
+#courses > ul > li > a::before {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: -1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 16px 20px;
+  color: #dff2fa;
+  background: #19799f;
+  content: attr(data-title);
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  transition: background 0.3s;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -ms-transform: translateY(- -18px);
+}
+#courses > ul > li:hover > a::before,
+#courses > ul > li > a:hover::before {
+  background: #3db2e1;
+}
+#courses.small-screen {
+  width: 100%;
+}
+#courses.small-screen > ul,
+#courses.small-screen.align-center > ul {
+  width: 100%;
+  text-align: left;
+}
+#courses.small-screen > ul > li,
+#courses.small-screen.align-center {
+  float: none;
+  display: block;
+  border-top: 1px solid rgba(100, 100, 100, 0.1);
+}
+#courses.small-screen > ul > li:hover > a,
+#courses.small-screen > ul > li > a:hover {
+  color: #dff2fa;
+  -webkit-transform: none;
+  -moz-transform: none;
+  transform: none;
+  -ms-transform: none;
+}
+#courses.small-screen > ul > li > a::before {
+  display: none;
+}
+#courses.small-screen #menu-button {
+  display: block;
+  padding: 16px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #3db2e1;
+}
+#courses.small-screen #menu-button:after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  display: block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  width: 22px;
+  height: 3px;
+}
+#courses.small-screen #menu-button.menu-opened:after {
+  border-top: 2px solid #dff2fa;
+  border-bottom: 2px solid #dff2fa;
+}
+#courses.small-screen #menu-button:before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 27px;
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #ffffff;
+}
+#courses.small-screen #menu-button.menu-opened:before {
+  background: #dff2fa;
+}
+/*end of navbar*/
+/*start clearFloat */
+.clearFloat{
+  clear: both;
+}
+/*start clearFloat */
+
+/*start videos */
+.videos{
+  margin-top: 20px;
+  overflow: hidden;
+}
+.videos .image {
+  float: left;
+  width:30%;
+  height:200px;
+  margin-right: 30px;
+}
+.videos .image img{
+  width:100%
+}
+.videos .description{
+  float: left;
+  width:60%;
+}
+/*end videos */
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}

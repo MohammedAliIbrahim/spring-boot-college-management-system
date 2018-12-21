@@ -1,0 +1,52 @@
+
+
+
+
+image , ادخل العنوان بتاعها فى  الاضافه بتاعت الكورس ولا لاء 
+وكذللك الكويزات .. دى يتعملها 
+
+validation :
+required ,  not number 
+
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+ازاى تحط داتا من الموبيل تنضاف فى الداتا بيز
+
+<script src="http://code.jquery.com/jquery-latest.min.js"
+	type="text/javascript"></script>
+	
+	
+
+
+<c:forEach var="schedule" items="${schedule }">
+	</c:forEach>
+
+
+
+<c:forEach var="s" items="${schedule }">
+</c:forEach>
+ ... 
+ 
+ <link href="${contextRoot}/static/css/styles.css" rel="stylesheet">
+ 
+ <c:forEach var="coursesByYear" items="${coursesByYear}">
+ </c:forEach>
+ 
+ 
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Courses</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#home">First Year</a>
+        <a href="#about">Second Year</a>
+        <a href="#contact">Third Year</a>
+        <a href="#fourth">Fourth Year</a>
+      </div>
+    </div>
+
+    
+    
+			<div class="container">
+				<div class="event">
+					<button class="A">Add Event</button>
+				</div>
+			</div>

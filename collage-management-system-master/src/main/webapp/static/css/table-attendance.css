@@ -1,0 +1,43 @@
+body
+{
+    background: #FFF;
+    margin: 0px;
+    padding:0px;
+    
+}
+.container
+{
+    margin-left: 0px;
+    width: 1250px;
+    height: 100px;
+    margin-right: 0px;
+}
+
+th
+{
+    background: #DDD;
+    
+    width: 200px;
+    height: 20px;
+    
+    margin:0px;
+    text-align: left;
+}
+ .a,.c,.e,.g,.i,.k,.m,.o,.q,.s
+{
+     background: #DDD;
+   
+    margin:0px;
+}
+button
+{
+    width: 250px;
+    height: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #FFF;
+    background-color: #000;
+}
+

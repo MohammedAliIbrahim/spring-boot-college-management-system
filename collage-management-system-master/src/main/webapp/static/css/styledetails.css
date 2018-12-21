@@ -1,0 +1,22 @@
+header main h1{
+  text-align: center;
+
+}
+section .image{
+  margin: auto;
+  width: 60%
+
+
+}
+section .image img{
+  width: 100%
+}
+section .info{
+    width: 60%;
+    margin: auto;
+}
+section .info p{
+  width: 100%;
+  line-height: 2em;
+  color:#a02727;
+}

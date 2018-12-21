@@ -1,0 +1,59 @@
+.content{
+  width: 988px;
+  margin: auto;
+  padding-top: 10px;
+
+}
+.clearfloat{clear: both;}
+.box{padding-bottom:20px }
+.upload{width:300px;height: 300px;float: left;background-size:100%;}
+.upload button{margin: auto;}
+.fullname{float: left;padding-left: 30px;padding-top:40px;font-size:30px }
+
+ul{clear: both;list-style-type:none;padding-bottom:20px;font-size:20px;}
+ul li{float: left;width: 20%;}
+ul li a{text-decoration: none;color:#03a9f4}
+ul li a:active{color:red;}
+.row label,.row div{
+  width: 25%;
+  float:left;
+  margin-bottom: 10px;
+
+}
+.row label{
+  font-weight: bold;
+}
+
+.row
+{
+  display: none;
+
+}
+.ahmd
+{
+  display: none;
+  font-weight:bold;
+  line-height: 2.5em;
+  letter-spacing: 2px;
+}
+.eissa
+{
+  display: none;
+  color: red;
+  font-weight:bold;
+  line-height: 2.5em;
+  letter-spacing: 2px;
+
+}
+.sasa
+{
+  display: none;
+  color: red;
+  font-weight:bold;
+  line-height: 2.5em;
+  letter-spacing: 2px;
+}
+
+a{ text-decoration:none;
+}
+ a:hover{color: green;}
