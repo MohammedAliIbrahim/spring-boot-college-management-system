@@ -1,5 +1,5 @@
 # collage-management-system (Gradution Project)
-
+------------------------------------------------------------------------------
 This is a software system developed for a college for maintaining information
 related to various daily activities in the college.
 The CMIS is used to maintain details of various departments in the college,
