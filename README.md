@@ -1,2 +1,4 @@
 # collage-management-system
-java projects and java code snippets , web , mobile , etc
+
+
+java EE , spring boot , spring mvc , spring data JPA , hibernate , jsp , mysql 
