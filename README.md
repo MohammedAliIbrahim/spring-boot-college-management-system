@@ -17,4 +17,4 @@ between the three elements of the college (students , professors and courses) to
 be gotten easily and rapidly. 
 
 used technologies :
-java EE , spring boot , spring mvc , spring data JPA , hibernate , jsp , mysql 
+java EE , spring boot , spring mvc , spring data JPA , hibernate , jsp , mysql , maven
